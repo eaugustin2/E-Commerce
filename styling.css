@@ -1,0 +1,448 @@
+
+
+ul{
+    list-style-type:none;
+    margin: 10px; 
+    padding-top: 25px;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    
+}
+
+li{
+    display: inline;
+    margin: 15px;
+    padding-top: 100px;
+}
+
+#outerLogoShell{
+    float: left;
+}
+
+#LogoDesignPhoto{
+    height: 90px;
+    text-align: left;
+}
+
+ul a{
+   text-decoration: none;
+   color: #164e87;
+
+}
+
+
+nav ul li{
+    font-family: cursive;
+    font-size: 18px;
+}
+
+nav ul li:hover{
+    border-bottom: 1px solid #164e87;
+}
+
+#shoppingCart{
+color: #164e87;
+float: right;
+cursor: pointer;
+font-size: 20px;
+
+}
+
+#searchGlass{
+    float: right;
+    color: #164e87;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#envelope{
+    float: right;
+    color: #164e87;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#hamburger{
+    display: none;
+}
+
+i{
+    margin: 5px;
+    margin-top: 25px;
+}
+
+/*
+    First Section
+*/
+
+
+
+#section1{
+    background-image: url("images/slideshowImage2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 40px;
+    height: 500px;
+    width: 100%;
+    color: white;
+}
+
+
+/*
+.cb-slideshow{
+    height: 300px;
+    width: 500px;
+}
+
+.cb-slideshow li{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.cb-slideshow li span{
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 40px;
+    height: 500px;
+    width: 100%;
+    color: white;
+    animation: imageAnimation 15s linear infinite 0s;
+}
+.cb-slideshow li:nth-child(1) span{
+    background-image: url(images/slideshowImage1.jpg);
+}
+
+.cb-slideshow li:nth-child(2) span{
+    background-image: url(images/slideshowImage2.jpg);
+    animation-delay: 5s;
+}
+
+.cb-slideshow li:nth-child(3) span{
+    background-image: url(images/slideshowImage3.jpg);
+    animation-delay: 10s;
+}
+
+
+
+@keyframes imageAnimation{
+    0%{opacity: 0; animation-timing-function: ease-in;}
+    8%{opacity: 1; animation-timing-function: ease-out;}
+    17%{opacity: 1;}
+    25%{opacity: 0;}
+    100%{opacity:0;}
+}
+
+*/
+
+
+#introHeader{
+    text-align: center;
+    padding-top: 175px;
+    font-size: 30px;
+}
+
+#introBlurb{
+    
+    font-size: 20px;
+    text-align: center;
+}
+
+#shopNowButtonContainer{
+    text-align: center;
+}
+
+#shopNowButton{
+    padding: 15px 32px;
+    background-color: #164e87;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+/*
+Second Section
+*/
+
+#example1{
+    /*color: #9F8162;*/
+    color: #164e87;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    height: 560px;
+    overflow: auto;
+}
+
+#flexBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#sectionTitle{
+    margin-top: 50px;
+}
+
+#photoContainer1{
+    float: right;
+    display: block;
+    box-sizing: border-box;
+    
+}
+
+#sectionTitle{
+    margin-left: 100px;
+}
+
+#textContainer1{
+    float: left;
+    margin: 70px;
+    
+    display: block;
+    
+    
+}
+
+#explanationExample1{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+   
+}
+
+#examplePhoto1{
+    max-height: 475px;
+    max-width: 500px; 
+    clear: right;
+}
+/*
+Featured Collection
+*/
+#pricingShell{
+    overflow: auto; /* Puts content within div, gives size to div */
+}
+
+#featuredCollectionTitle{
+    text-align: center;
+}
+
+#productPhotoShell{
+    text-align: center;
+}
+#productPhoto{
+    margin-top: 20px;
+    height: 400px;
+}
+
+/*
+FooterSection
+*/
+
+footer{
+    color: #164e87;
+}
+
+hr{
+    color: #164e87;
+}
+
+#contactDiv{
+    float: right;
+    margin-right: 10px;
+}
+
+#searchDiv{
+    float: right;
+    margin-right: 10px;
+}
+
+#storePolicy{
+    float: right;
+
+}
+
+#footerNav{
+    text-align: left;
+    display: block;
+    padding-top: 0px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#footerNav li{
+    display: block;
+    padding-top: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: none;
+    font-size: 15px;
+}
+
+#menuLabel{
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+/*
+Shop.html
+*/
+
+#productPageShell{
+    display: flex;
+    flex-direction: row;
+    color: #164e87;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#productDisplay{
+    margin-top: 70px;
+    margin-left: 200px;
+    height: 500px;
+}
+
+#productPagePrice{
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 250px;
+    float: right;
+}
+
+#productTitle{
+    font-size: 30px;
+}
+
+#quantity{
+    width: 30px;
+    height: 30px;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#cardBadges{
+    color: gray;
+    font-size: 20px;
+    margin-left: 73px;
+}
+
+#AddToCart{
+    padding: 15px 125px;
+    background-color: #164e87;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+#productParagraph{
+    font-size: 17px
+}
+
+/*
+Shipping information
+*/
+#shippingInformation{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #164e87;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.w3-badge{
+    float: right;
+    margin-top: 10px;
+    padding-right: 10px;
+   
+}
+
+
+
+@media only screen and (max-width: 768px){
+    
+    
+    #nav{
+        padding-top: 74px;
+        font-size: 20px;
+    }
+
+    #Home{
+        margin-right: 40px;
+    }
+
+    #nav a{
+        display: none;
+    }
+
+    #outerLogoShell{
+        align-content: center;
+        
+        position: relative;
+        align-content: center;
+    }
+
+
+   #section1{
+       margin-top: 0px;
+   }
+
+   #hamburger{
+       display: block;
+       float: right;
+       color: #164e87;
+       cursor: pointer;
+       font-size: 20px;
+   }
+
+   #hamburgerCloser{
+    float: right;
+    color: #164e87;
+    cursor: pointer;
+    font-size: 20px;
+   }
+
+   @media only screen and (max-width: 680px){
+    #flexBox{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+   }
+
+   @media only screen and (max-width: 900px){
+    #productPageShell{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #productDisplay{
+        margin-left: 0px 
+    }
+
+
+    #productPagePrice{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    #cardBadges{
+        margin-left: 0px;
+    }
+   }
+
+
+
+   
+
+  
+   
+}
