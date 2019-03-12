@@ -6,7 +6,7 @@ ul{
     padding-top: 25px;
     text-align: center;
     font-size: 20px;
-    font-family: cursive;
+    font-family: 'Courier New', Courier, monospace;
     
 }
 
@@ -21,13 +21,16 @@ li{
 }
 
 #LogoDesignPhoto{
-    height: 90px;
+    height: 100px;
     text-align: left;
+    
 }
 
 ul a{
    text-decoration: none;
-   color: #164e87;
+   /*color: #164e87;*/
+
+   color: #8A8A8A;
 
 }
 
@@ -42,7 +45,9 @@ nav ul li:hover{
 }
 
 #shoppingCart{
-color: #164e87;
+/*color: #164e87;*/
+color: #8A8A8A;
+/*color: 	#33A96C;*/
 float: right;
 cursor: pointer;
 font-size: 20px;
@@ -51,14 +56,18 @@ font-size: 20px;
 
 #searchGlass{
     float: right;
-    color: #164e87;
+    /*color: #164e87;*/
+    color: #8A8A8A;
+    /*color: 	#33A96C;*/
     cursor: pointer;
     font-size: 20px;
 }
 
 #envelope{
     float: right;
-    color: #164e87;
+    /*color: #164e87;*/
+    color: #8A8A8A;
+    /*color: 	#33A96C;*/
     cursor: pointer;
     font-size: 20px;
 }
@@ -143,12 +152,14 @@ i{
     text-align: center;
     padding-top: 175px;
     font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #introBlurb{
     
     font-size: 20px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #shopNowButtonContainer{
@@ -157,7 +168,8 @@ i{
 
 #shopNowButton{
     padding: 15px 32px;
-    background-color: #164e87;
+    /*background-color: #164e87;*/
+    background-color: #33A96C;
     color: white;
     text-decoration: none;
     font-size: 15px;
@@ -172,7 +184,8 @@ Second Section
 
 #example1{
     /*color: #9F8162;*/
-    color: #164e87;
+    /*color: #164e87;*/
+    color: #8A8A8A;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     height: 560px;
@@ -226,10 +239,15 @@ Featured Collection
 */
 #pricingShell{
     overflow: auto; /* Puts content within div, gives size to div */
+    color: #8A8A8A;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #featuredCollectionTitle{
     text-align: center;
+    color: #8A8A8A;
+    font-family: 'Courier New', Courier, monospace;
+    
 }
 
 #productPhotoShell{
@@ -245,7 +263,9 @@ FooterSection
 */
 
 footer{
-    color: #164e87;
+    /*color: 	#33A96C;*/
+    color: #8A8A8A;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 hr{
@@ -295,57 +315,44 @@ hr{
 /*
 Shop.html
 */
-
 #productPageShell{
     display: flex;
     flex-direction: row;
+    
     color: #164e87;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#productDisplay{
-    margin-top: 70px;
-    margin-left: 200px;
-    height: 500px;
+#shopifyProduct{
+margin-left: 100px;
+margin-right: 200px;
+float: left;
 }
 
-#productPagePrice{
-    margin-top: 70px;
-    margin-left: 20px;
-    margin-right: 250px;
+#productDescriptionShop{
+    overflow: auto;
+    max-width: 500px;
     float: right;
+    margin-left: 100px;
 }
 
-#productTitle{
-    font-size: 30px;
+#productContents{
+    width: auto;
 }
 
-#quantity{
-    width: 30px;
-    height: 30px;
-    font-size: 17px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-#cardBadges{
-    color: gray;
+#productContentsDescription{
     font-size: 20px;
-    margin-left: 73px;
+    color: black;
 }
 
-#AddToCart{
-    padding: 15px 125px;
-    background-color: #164e87;
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
-    border: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    cursor: pointer;
+#antiTheftDescription{
+    font-size: 20px;
+    color: black;
 }
 
-#productParagraph{
-    font-size: 17px
+#chargingPhotoDescription{
+    font-size: 20px;
+    color: black;
 }
 
 /*
@@ -354,7 +361,7 @@ Shipping information
 #shippingInformation{
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #164e87;
+    color: #33A96C;
     text-align: center;
     margin-top: 100px;
 }
@@ -364,6 +371,45 @@ Shipping information
     margin-top: 10px;
     padding-right: 10px;
    
+}
+
+/*
+FAQ section
+*/
+
+#faqTitle{
+    text-align: center;
+}
+.dropDownTitle{
+    margin-left: 20px;
+    text-align: center;
+}
+
+.dropDown{
+    display: none;
+    font-size: 17px;
+    
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dropDownTitle:hover .dropDown{
+display: block;
+
+
+}
+
+@media only screen and (max-width: 600){
+   
+    #section1{
+        background-image: url("images/slideshowImage2.jpg");
+        
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
 }
 
 
@@ -399,16 +445,23 @@ Shipping information
    #hamburger{
        display: block;
        float: right;
-       color: #164e87;
+       /*color: #164e87;*/
+       color: 	#33A96C;
        cursor: pointer;
        font-size: 20px;
    }
 
    #hamburgerCloser{
     float: right;
-    color: #164e87;
+    /*color: #164e87;*/
+    color: 	#33A96C;
     cursor: pointer;
     font-size: 20px;
+   }
+
+   #productDescriptionShop{
+       margin-top: 50px;
+       margin-left: 0px;
    }
 
    @media only screen and (max-width: 680px){

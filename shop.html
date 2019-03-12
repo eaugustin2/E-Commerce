@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-            <title>Home Page</title>
+            <title>Charging Backpack</title>
             <meta name="viewport" content="width=device-width,initial-scale=1">
             <link type="text/css" rel="stylesheet" href="styling.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -20,15 +20,11 @@
                     
                                         <i class="fa fa-bars" id="hamburger"></i>
                     
-                                        <i class="far fa-envelope" id="envelope"></i>
+                                        
                             
-                                        <i class="fa fa-search" id="searchGlass"></i>
-                                        <div id="shoppingCartDiv">
-                                                <a href="">
-                                                                <span class="w3-badge w3-blue" id="badge">0</span>
-                                                        <i class="fa fa-shopping-bag" id="shoppingCart"></i>
-                                                </a>
-                                        </div>
+                                        <a href="mailto:chargingPub@gmail.com"><i class="far fa-envelope" id="envelope"></i></a>
+                                        
+                                        
                                         
                     
                             </nav>
@@ -41,7 +37,7 @@
 
                                     <a href="shipping.html"><li>Shipping Info</li></a>
 
-                                    <a href=""><li>FAQ's</li></a>
+                                    <a href="FAQ.html"><li>FAQ's</li></a>
                                 </ul>
                             </header>
 
@@ -50,9 +46,249 @@
             <hr>
 
             <section id="productPageShell">
-                <div id="displayProduct">
+
+                <div id="shopifyProduct">
+                                <div id='product-component-e03439a3f6e'></div>
+                                <script type="text/javascript">
+                                /*<![CDATA[*/
+                            
+                                (function () {
+                                  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                                  if (window.ShopifyBuy) {
+                                    if (window.ShopifyBuy.UI) {
+                                      ShopifyBuyInit();
+                                    } else {
+                                      loadScript();
+                                    }
+                                  } else {
+                                    loadScript();
+                                  }
+                            
+                                  function loadScript() {
+                                    var script = document.createElement('script');
+                                    script.async = true;
+                                    script.src = scriptURL;
+                                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                                    script.onload = ShopifyBuyInit;
+                                  }
+                            
+                                  function ShopifyBuyInit() {
+                                    var client = ShopifyBuy.buildClient({
+                                      domain: 'charge-pub.myshopify.com',
+                                      storefrontAccessToken: '3fea9b28520f82da64698fc86acefdeb',
+                                    });
+                            
+                                    ShopifyBuy.UI.onReady(client).then(function (ui) {
+                                      ui.createComponent('product', {
+                                        id: [1654775283784],
+                                        node: document.getElementById('product-component-e03439a3f6e'),
+                                        moneyFormat: '%24%7B%7Bamount%7D%7D',
+                                        options: {
+                              "product": {
+                                "variantId": "all",
+                                "contents": {
+                                  "imgWithCarousel": false,
+                                  "variantTitle": false,
+                                  "description": false,
+                                  "buttonWithQuantity": false,
+                                  "quantity": false
+                                },
+                                "styles": {
+                                  "product": {
+                                    "@media (min-width: 601px)": {
+                                      "max-width": "100%",
+                                      "margin-left": "0",
+                                      "margin-bottom": "50px"
+                                    }
+                                  },
+                                  "button": {
+                                    "background-color": "#33a96c",
+                                    ":hover": {
+                                      "background-color": "#2e9861"
+                                    },
+                                    ":focus": {
+                                      "background-color": "#2e9861"
+                                    }
+                                  },
+                                  "compareAt": {
+                                    "font-size": "12px"
+                                  }
+                                }
+                              },
+                              "cart": {
+                                "contents": {
+                                  "button": true
+                                },
+                                "styles": {
+                                  "button": {
+                                    "background-color": "#33a96c",
+                                    ":hover": {
+                                      "background-color": "#2e9861"
+                                    },
+                                    ":focus": {
+                                      "background-color": "#2e9861"
+                                    }
+                                  },
+                                  "title": {
+                                    "color": "#050505"
+                                  },
+                                  "footer": {
+                                    "background-color": "#ffffff"
+                                  },
+                                  "header": {
+                                    "color": "#050505"
+                                  },
+                                  "lineItems": {
+                                    "color": "#050505"
+                                  },
+                                  "subtotalText": {
+                                    "color": "#050505"
+                                  },
+                                  "subtotal": {
+                                    "color": "#050505"
+                                  },
+                                  "notice": {
+                                    "color": "#050505"
+                                  },
+                                  "currency": {
+                                    "color": "#050505"
+                                  },
+                                  "close": {
+                                    ":hover": {
+                                      "color": "#050505"
+                                    },
+                                    "color": "#050505"
+                                  },
+                                  "emptyCart": {
+                                    "color": "#050505"
+                                  }
+                                }
+                              },
+                              "modalProduct": {
+                                "contents": {
+                                  "img": false,
+                                  "imgWithCarousel": true,
+                                  "variantTitle": false,
+                                  "buttonWithQuantity": true,
+                                  "button": false,
+                                  "quantity": false
+                                },
+                                "styles": {
+                                  "product": {
+                                    "@media (min-width: 601px)": {
+                                      "max-width": "100%",
+                                      "margin-left": "0px",
+                                      "margin-bottom": "0px"
+                                    }
+                                  },
+                                  "button": {
+                                    "background-color": "#33a96c",
+                                    ":hover": {
+                                      "background-color": "#2e9861"
+                                    },
+                                    ":focus": {
+                                      "background-color": "#2e9861"
+                                    }
+                                  }
+                                }
+                              },
+                              "toggle": {
+                                "styles": {
+                                  "toggle": {
+                                    "background-color": "#33a96c",
+                                    ":hover": {
+                                      "background-color": "#2e9861"
+                                    },
+                                    ":focus": {
+                                      "background-color": "#2e9861"
+                                    }
+                                  },
+                                  "count": {
+                                    "color": "#ffffff",
+                                    ":hover": {
+                                      "color": "#ffffff"
+                                    }
+                                  },
+                                  "iconPath": {
+                                    "fill": "#ffffff"
+                                  }
+                                }
+                              },
+                              "productSet": {
+                                "styles": {
+                                  "products": {
+                                    "@media (min-width: 601px)": {
+                                      "margin-left": "-20px"
+                                    }
+                                  }
+                                }
+                              },
+                              "lineItem": {
+                                "styles": {
+                                  "variantTitle": {
+                                    "color": "#050505"
+                                  },
+                                  "title": {
+                                    "color": "#050505"
+                                  },
+                                  "price": {
+                                    "color": "#050505"
+                                  },
+                                  "quantity": {
+                                    "color": "#050505"
+                                  },
+                                  "quantityIncrement": {
+                                    "color": "#050505",
+                                    "border-color": "#050505"
+                                  },
+                                  "quantityDecrement": {
+                                    "color": "#050505",
+                                    "border-color": "#050505"
+                                  },
+                                  "quantityInput": {
+                                    "color": "#050505",
+                                    "border-color": "#050505"
+                                  }
+                                }
+                              }
+                            }
+                                      });
+                                    });
+                                  }
+                                })();
+                                /*]]>*/
+                                </script>
+                </div>
+
+                
+                <div id="productDescriptionShop">
+
+                        <div id="productContents">
+                                <img src="images/productContents.jpg" alt="productContents" width="370px">
+                                <p id="productContentsDescription">This multi-fiction backpack can hold laptops, tablets, cameras, books, pens, pencils, and has a handy cellphone zipper pocket. </p>
+                
+                        </div>
+
+                        <div id="antiTheft">
+                                <img src="images/antiTheftDescription.jpg" alt="antiTheft" height="370px">
+                                <p id="antiTheftDescription">This backpack is comfortable and easy to carry while still incorporating an anti-theft design as well as anti-theft technology. The zipper enclosing the main pocket is fully hidden in the back of the bag and completely out of reaching for any potential thieves.</p>
+                        </div>
+
+                        <div id="chargingPhoto">
+                                <img src="images/chargingPhoto.jpg" alt="chargingPhoto" height="370px;">
+                                <p id="chargingPhotoDescription">This backpack also comes with an External USB that offers convenient charging for your electronic devices anytime and anywhere. (Powerbank not included).</p>
+                        </div>
+                        
+                </div>
+                    
+                        
+                    
+        </section>
+                    <!--
+                            
+                        <div id="displayProduct">
                         <img src="images/soloSuit.jpg" alt="soloSuit" id="productDisplay">
-                        <!--Can put smaller pics of diff angles here-->
+                        
                 </div>
 
                 <div id="productPagePrice">
@@ -72,19 +308,27 @@
                         </div>
                         <p id="productParagraph">A limited edition product, designed exclusively for you. All our products are made using the finest materials and craftsmanship. Light but durable, this is one of our flagship products. It’s popular with men and women, and is the perfect gift for all occasions.</p>
                 </div>
-            </section>
+           
 
-            <footer id="footerSection">
-                        <hr>    
-                        
-                        &copy; 2019, Store Name
             
-                        <div id="searchDiv">Search</div>
-                        <div id="contactDiv">Contact Us</div>
-                        
-                        
-                    </footer>
             <script src="shoppingCart.js"></script>
             <script src="hamburger.js"></script>
+                    -->
+
+                    <footer id="footerSection">
+                                <hr>
+                               
+                    
+                                &copy; 2019, Charge-Pub
+                    
+                                
+                                <a href="storePolicy.html"><div id="storePolicy">Store Policy</div></a>
+                                
+                                <a href="mailto:chargingPub@gmail.com"><div id="contactDiv">Contact Us</div></a>
+                                
+                                
+                                
+                        </footer>
+        <script src="hamburger.js"></script>
     </body>
 </html>
